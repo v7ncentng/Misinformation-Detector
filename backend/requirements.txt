@@ -1,12 +1,25 @@
-# Minimal requirements - guaranteed to work
 fastapi>=0.68.0
 uvicorn>=0.15.0
 pydantic>=1.8.0
 
+# HTTP client for web search functionality - required
 aiohttp>=3.8.0
 
-# Optional but recommended (install if possible)
-# transformers>=4.20.0
-# torch>=1.12.0
-# nltk>=3.7
-# textblob>=0.17.1
+# Optional ML/NLP dependencies - install if you want enhanced features
+# The application will work without these but with reduced functionality
+transformers>=4.20.0
+torch>=1.12.0
+nltk>=3.7
+textblob>=0.17.1
+
+# Additional dependencies that might be needed for transformers
+# Uncomment if you encounter import errors
+# tokenizers>=0.13.0
+# numpy>=1.21.0
+# scipy>=1.7.0
+# scikit-learn>=1.0.0
+
+# Development dependencies (optional)
+# pytest>=6.0.0
+# black>=22.0.0
+# flake8>=4.0.0
