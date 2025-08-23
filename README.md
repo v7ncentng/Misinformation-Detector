@@ -50,29 +50,38 @@ Semantic Field Mapping: Context-aware word meaning detection
 
 # Setup 
 
-Backend Setup
-bash# Clone repository
+**Backend Setup**
+Clone repository
+```bash
 git clone <repository-url>
 cd misinformation-spotter/backend
+```
 
 Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 Install dependencies
+```bash
 pip install fastapi uvicorn transformers torch nltk textblob aiohttp
+```
 
 Optional ML models (for enhanced analysis)
+```bash
 pip install sentence-transformers
+```
 
 Start backend server
+```bash
 uvicorn main:app --reload --port 8000
 Frontend Setup
 bashcd ../frontend
+```
 
-Install dependencies
+Run Frontend
+```bash
 npm install
-
-Start development server
 npm start
-The application will be available at http://localhost:3000
+```
+
