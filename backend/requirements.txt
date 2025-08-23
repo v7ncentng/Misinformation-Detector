@@ -1,0 +1,12 @@
+# Minimal requirements - guaranteed to work
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+
+aiohttp>=3.8.0
+
+# Optional but recommended (install if possible)
+# transformers>=4.20.0
+# torch>=1.12.0
+# nltk>=3.7
+# textblob>=0.17.1
