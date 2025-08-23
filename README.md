@@ -47,6 +47,8 @@ Named Entity Recognition: Automatic extraction of key entities
 Morphological Analysis: Word structure analysis for sentiment
 Semantic Field Mapping: Context-aware word meaning detection
 
+**Disclaimer: This project is currently in the Beta Testing stage!**
+
 # Setup 
 
 **Backend Setup**
