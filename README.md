@@ -3,8 +3,7 @@
 AI Misinformation Spotter
 An intelligent web application that analyzes text for potential misinformation, false claims, and credibility issues using advanced NLP techniques and real-time web verification.
 
-Key Features
-Core Analysis Capabilities
+**Key Features**
 
 Factual Claim Detection: Identifies statements that make verifiable factual assertions
 Credibility Assessment: Evaluates source reliability and content trustworthiness
@@ -12,36 +11,36 @@ Web Verification: Cross-references claims against current web sources in real-ti
 Risk Level Classification: Categorizes content as low, medium, or high risk for misinformation
 Sentiment Analysis: Advanced connotation detection beyond simple word matching
 
-Specialized Detection
+**Specialized Detection**
 
 Health Misinformation: Flags dangerous medical claims and unsubstantiated health advice
-Implausibility Detection: Identifies obviously false claims (e.g., "drink 20 glasses of water daily")
+Implausibility Detection: Identifies obviously false claims
 Fake Authority Recognition: Detects vague citations like "studies show" without specific sources
 Red Flag Analysis: Spots conspiracy language, miracle cures, and emotional manipulation
 
-Technical Features
+**Technical Features**
 
 Multi-Engine Web Search: Uses DuckDuckGo and fallback search mechanisms
 Confidence Scoring: Provides nuanced confidence levels rather than binary true/false
 Entity Extraction: Identifies key people, organizations, and concepts
 Real-time Processing: Fast analysis suitable for social media content
 
-Technology Stack
-Backend (Python/FastAPI)
+**Technology Stack**
 
+Backend (Python/FastAPI)
 FastAPI: High-performance async web framework
 Transformers: Hugging Face models for sentiment analysis and NLI
 NLTK/TextBlob: Natural language processing utilities
 aiohttp: Asynchronous HTTP client for web searches
 Pydantic: Data validation and settings management
 
-Frontend (React)
+**Frontend (React)**
 
 React 18: Modern component-based UI
 CSS3: Responsive design with gradient backgrounds
 Fetch API: Seamless backend communication
 
-AI/ML Components
+**AI/ML Components**
 
 Zero-shot Classification: Content categorization without training data
 Named Entity Recognition: Automatic extraction of key entities
