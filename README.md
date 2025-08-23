@@ -48,29 +48,31 @@ Named Entity Recognition: Automatic extraction of key entities
 Morphological Analysis: Word structure analysis for sentiment
 Semantic Field Mapping: Context-aware word meaning detection
 
+# Setup 
+
 Backend Setup
 bash# Clone repository
 git clone <repository-url>
 cd misinformation-spotter/backend
 
-# Create virtual environment
+Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+Install dependencies
 pip install fastapi uvicorn transformers torch nltk textblob aiohttp
 
-# Optional ML models (for enhanced analysis)
+Optional ML models (for enhanced analysis)
 pip install sentence-transformers
 
-# Start backend server
+Start backend server
 uvicorn main:app --reload --port 8000
 Frontend Setup
 bashcd ../frontend
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Start development server
+Start development server
 npm start
 The application will be available at http://localhost:3000
